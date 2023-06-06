@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Wallpaper Generator</title>
+        <style>
+            body, form{
+                margin:20px auto;
+                max-width:800px;
+                overflow-x:hidden;
+            }
+            fieldset{
+                display: flex;
+            }
+            input#description{
+                flex-grow:50;
+                margin: 0 20px;
+            }
+            input#location{
+                flex-grow:50;
+                margin: 0 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="enter" method="GET">
+            <h1>Arben Temaj CS355 Final Project</h1>
+            <fieldset>
+                <legend>Hello please type your name and the password</legend>
+                <label>Username</label>
+                <input name="name" type="text" />
+            </fieldset>
+            <div>
+                <h2>Select one option while you wait for your wallpaper</h2>
+                <input type="checkbox" name="check1" value="y" checked/>A picture of Young Keanu</label>
+                <br>
+                <input type="checkbox" name="check2" value="g" />A picture of Grayscale Keanu</label>
+                <br>
+            </div>
+        </form>
+    </body>
+</html>
